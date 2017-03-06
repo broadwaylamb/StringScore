@@ -1,9 +1,13 @@
 //  Based on string_score 0.1.21 by Joshaven Potter.
 //  https://github.com/joshaven/string_score/
 //
-//  Copyright (c) 2016 YICHI ZHANG
+//  Copyright © 2016 YICHI ZHANG
 //  https://github.com/yichizhang
 //  zhang-yi-chi@hotmail.com
+//
+//  Copyright © 2017 Sergej Jaskiewicz
+//  https://github.com/broadwaylamb
+//  jaskiewiczs@icloud.com
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a
 //  copy of this software and associated documentation files (the "Software"),
@@ -28,6 +32,13 @@ import Foundation
 
 public extension String {
 
+    /// Calculate the score of the `word` against `self`.
+    ///
+    /// - Parameters:
+    ///   - word: The word to search in the string.
+    ///   - fuzziness: A number between 0 and 1 which varies how fuzzy the calculation is.
+    ///                Defaults to `nil` (fuzziness disabled).
+    /// - Returns: The score betwee 0 to 1.
     public func score(_ word: String, fuzziness: Double? = nil) -> Double {
 
         // If the string is equal to the word, perfect match.
