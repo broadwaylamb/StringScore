@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SJStringScore"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Swift string search and fuzzy ranking. Score of 0 for no match; up to 1 for perfect."
   s.description      = "Swift string search and fuzzy ranking. Score of 0 for no match; up to 1 for perfect. StringScore is a Swift library which provides fast fuzzy string matching/scoring. Based on the JavaScript library of the same name, by Joshaven Potter."
   s.homepage         = "https://github.com/broadwaylamb/SJStringScore"
