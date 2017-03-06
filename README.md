@@ -1,5 +1,5 @@
 # SJStringScore
-[![Build Status](https://travis-ci.org/broadwaylamb/SJStringScore.svg?branch=master)](https://travis-ci.org/WeirdMath/TimetableSDK)
+[![Build Status](https://travis-ci.org/broadwaylamb/SJStringScore.svg?branch=master)](https://travis-ci.org/broadwaylamb/SJStringScore)
 [![codecov](https://codecov.io/gh/broadwaylamb/SJStringScore/branch/master/graph/badge.svg)](https://codecov.io/gh/broadwaylamb/SJStringScore)
 ![Cocoapods](https://img.shields.io/cocoapods/v/SJStringScore.svg?style=flat)
 
