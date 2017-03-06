@@ -1,7 +1,7 @@
 import XCTest
-import StringScore
+import SJStringScore
 
-class StringScoreTests: XCTestCase {
+class SJStringScoreTests: XCTestCase {
 
     struct StringScoreTestCase {
 
@@ -277,7 +277,7 @@ class StringScoreTests: XCTestCase {
         StringScoreTestCase(text: "Hillsdale Michigan", searchString: "Hillsd", fuzziness: 1.0, expectedScore: 0.683333333333333),
     ]
 
-    static var allTests : [(String, (StringScoreTests) -> () throws -> Void)] {
+    static var allTests : [(String, (SJStringScoreTests) -> () throws -> Void)] {
         return [
             ("testStringScore", testStringScore),
         ]

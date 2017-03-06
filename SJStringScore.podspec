@@ -7,14 +7,14 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "StringScore"
+  s.name             = "SJStringScore"
   s.version          = "1.0.0"
   s.summary          = "Swift string search and fuzzy ranking. Score of 0 for no match; up to 1 for perfect."
   s.description      = "Swift string search and fuzzy ranking. Score of 0 for no match; up to 1 for perfect. StringScore is a Swift library which provides fast fuzzy string matching/scoring. Based on the JavaScript library of the same name, by Joshaven Potter."
-  s.homepage         = "https://github.com/broadwaylamb/StringScore"
+  s.homepage         = "https://github.com/broadwaylamb/SJStringScore"
   s.license          = 'MIT'
   s.author           = { "Yichi Zhang" => "zhang-yi-chi@hotmail.com" }
-  s.source           = { :git => "https://github.com/broadwaylamb/StringScore.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/broadwaylamb/SJStringScore.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/nsyichi'
   s.source_files = 'Sources/**/*.swift'
   

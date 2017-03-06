@@ -1,6 +1,6 @@
 import XCTest
-@testable import StringScoreTests
+@testable import SJStringScoreTests
 
 XCTMain([
-     testCase(StringScoreTests.allTests),
+     testCase(SJStringScoreTests.allTests),
 ])
